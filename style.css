@@ -264,12 +264,17 @@ footer {
     }
 
     .navbar {
-        flex-direction: column;
-        gap: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background: #2563eb;
     }
 
     .nav-links {
-        flex-direction: column;
-        gap: 10px;
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        font-size: 14px;
     }
 }
